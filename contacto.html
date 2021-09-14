@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calzados Muriel | Contacto</title>
+    <meta name="description" content= "Somos un emprendimiento nacional de Calzados para toda tu familia, donde combinamos calidad y precio">
+    <meta name="keywords" content= "Calzado, Emprendimiento, Femenino, Masculino, Niños ">
+    
     <!--fuente de google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
      <!--direccion para encontrar los iconos de wpp,ig,fbk. Es donde HTML va a ir a buscar los iconos para el footer-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.css" as="style">
     <!--mi hoja de estilo--> 
     <link rel="stylesheet" href="css/style.css" as="style">
 
@@ -20,9 +22,9 @@
 <body>
     <header>
 
-        <div">
-            <img src="img/imagenDeInicioDePagina.jpg" alt="imagen de bloque">
-        </div>
+      <div">
+        <img class="imagenPrincipal" src="img/imagenDeInicioDePagina.jpg" alt="imagen de bloque">
+      </div>
 
     </header>
     
@@ -37,55 +39,53 @@
     </div>
 
     <main>
-            <h2 class="subtituloPrincipal">CONTACTANOS</h2> 
+      <h2 class="subtituloPrincipal">CONTACTANOS</h2> 
             
+      <section class="sectionForm">
             
-            <section class="sectionForm">
-            
-                <form class="row g-3">
-                        <div class="col-md-5">
-                            <label class="form-label">Nombres</label>
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col-md-5">
-                            <label class="form-label">Apellido</label>
-                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                        </div>
-                      </div>
-                   <div class="col-md-6">
-                      <label for="inputEmail4" class="form-label">E-mail</label>
-                      <input type="email" class="form-control" id="inputEmail4">
-                    </div>                  
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">Consultas por</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-md-10">
-                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Deseo que me envíen novedades
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
-                    </div>
-                  </form>
-
-            </section>
-        </main>
+        <form class="row g-3">
+          <div class="col-md-10 col-lg-12">
+            <label class="form-label">Nombres</label>
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col-md-10 col-lg-12">
+            <label class="form-label">Apellido</label>
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+          </div>
+          <div class="col-md-10 col-lg-12">
+          <label for="inputEmail4" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>                  
+          <div class="col-md-10 col-lg-12">
+            <label for="inputCity" class="form-label">Consultas por</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-10 col-lg-12">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Deseo que me envíen novedades
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
 
     <footer class="footer">
         <span> Seguinos en</span>
         <a class="footer__enlace footer_redes--whatsapp" href=""><i class="fab fa-whatsapp-square"></i></a>
         <a class="footer__enlace footer_redes--instagram" href=""><i class="fab fa-instagram-square"></i></a>
         <a class="footer__enlace footer_redes--facebook" href=""><i class="fab fa-facebook-square"></i></a>
-        <spam> Creado por Stefania Medrano</spam>
+        <span> Creado por Stefania Medrano</span>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

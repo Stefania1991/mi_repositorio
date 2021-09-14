@@ -125,6 +125,11 @@ ul {
   padding-top: 35px;
   padding-bottom: 35px; }
 
+.buscar_locales {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%; }
+
 .locales {
   display: flex;
   justify-content: space-evenly;
@@ -132,6 +137,13 @@ ul {
   padding-right: 750px; }
 
 .locales__direcciones {
+  display: grid;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  grid-template-columns: 40px 100px;
+  margin-left: 10px; }
+
+.locales__mapa {
   display: grid;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -159,8 +171,8 @@ ul {
 .sectionForm {
   font-size: 3rem;
   color: beige;
-  margin-left: 200px;
-  margin-right: 300px;
+  padding-left: 200px;
+  padding-right: 300px;
   padding-bottom: 200px;
   padding-top: 100px; }
 
@@ -211,19 +223,170 @@ ul {
   height: 50px;
   font-size: medium; }
 
+@media (max-width: 1440px) {
+  .imagenPrincipal {
+    width: auto;
+    height: auto;
+    max-width: 1440px;
+    max-height: 850px; }
+  .locales {
+    padding-right: 650px; }
+  .locales__mapa {
+    padding-left: 250px; }
+  .locales__direcciones {
+    padding-left: 120px; } }
+
 @media (max-width: 1024px) {
   .imagenPrincipal {
     width: auto;
     height: auto;
     max-width: 1024px;
-    max-height: 850px; } }
+    max-height: 850px; }
+  .imagenesInicio {
+    width: auto;
+    height: auto;
+    max-width: 275px;
+    padding-left: 40px;
+    padding-top: 25px; }
+  .menuPrincipal {
+    font-size: x-large; }
+  .tituloIndex {
+    font-size: 2.5rem; }
+  .container {
+    padding-top: 25px;
+    padding-bottom: 50px; }
+  .tituloLista {
+    font-size: 2.5rem; }
+  .listaInicio {
+    font-size: 2rem;
+    margin-bottom: 35px; }
+  .locales {
+    padding-right: 650px; }
+  .locales__mapa {
+    padding-left: 250px; }
+  .locales__direcciones {
+    padding-left: 120px; }
+  .direcciones__descripcion {
+    font-size: 1.8rem; }
+  .catalogo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    gap: 40px; }
+  .catalogo__producto {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px; }
+  .producto__img {
+    max-width: 135px;
+    width: 250px;
+    height: 250px; }
+  .producto__descripcion {
+    padding-top: 10px;
+    font-size: 1.7rem; }
+  .subtituloPrincipal {
+    padding: 35px;
+    font-size: 3rem; }
+  .sectionForm {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 95px;
+    font-size: 2rem; }
+  .footer {
+    font-size: 1.7rem; } }
 
 @media (max-width: 768px) {
   .imagenPrincipal {
     width: auto;
     height: auto;
-    max-width: 850px;
-    max-height: 850px; } }
+    max-width: 768px;
+    max-height: 850px; }
+  .imagenesInicio {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    margin-top: 35px;
+    margin-left: 95px; }
+  .menuPrincipal {
+    font-size: large; }
+  .tituloIndex {
+    font-size: 2.5rem; }
+  .container {
+    padding-top: 25px;
+    padding-bottom: 50px; }
+  .tituloLista {
+    font-size: 2.5rem; }
+  .listaInicio {
+    font-size: 2rem;
+    margin-left: 230px; }
+  .subtitulosLocales {
+    font-size: 2.5rem;
+    padding-top: 30px;
+    padding-bottom: 25px; }
+  .h3_locales {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+  .locales {
+    display: inline; }
+  .locales__direcciones {
+    display: grid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    grid-template-columns: 40px 50px;
+    margin-left: 10px; }
+  .locales__mapa {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10%; }
+  .direcciones__descripcion {
+    font-size: 1.8rem; }
+  .maps {
+    font-size: 1.8rem;
+    width: 250px;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 16px; }
+  .subtitulosNosotros {
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .sectionNosotros {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .descripcion_nosotros {
+    font-size: 1.8rem; }
+  .catalogo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 40px; }
+  .catalogo__producto {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px; }
+  .producto__img {
+    max-width: 110px;
+    width: 250px;
+    height: 250px; }
+  .producto__descripcion {
+    padding-top: 10px;
+    font-size: 1.4rem; }
+  .subtituloPrincipal {
+    padding: 35px;
+    font-size: 2.5rem; }
+  .sectionForm {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 1.5rem; }
+  .footer {
+    font-size: 1.7rem; } }
 
 @media (max-width: 425px) {
   .imagenPrincipal {
@@ -231,9 +394,85 @@ ul {
     height: auto;
     max-width: 425px;
     max-height: 850px; }
+  .imagenesInicio {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    margin-left: 55px;
+    margin-right: 62px; }
+  .menuPrincipal {
+    font-size: small; }
   .tituloIndex {
-    font-size: 2.5rem; }
-  footer {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
+  .tituloLista {
+    font-size: 2rem; }
   .listaInicio {
-    font-size: 2rem; } }
+    font-size: 1.5rem;
+    margin-left: 100px; }
+  .subtitulosLocales {
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 15px; }
+  .h3_locales {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+  .locales {
+    display: inline; }
+  .locales__mapa {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10%; }
+  .locales__direcciones {
+    padding-left: 10%; }
+  .locales__mapa iframe {
+    width: auto;
+    height: auto;
+    max-width: 425px;
+    max-height: 600px; }
+  .direcciones__descripcion {
+    font-size: 1.5rem; }
+  .maps {
+    font-size: 1.5rem;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 16px; }
+  .subtitulosNosotros {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .sectionNosotros {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .descripcion_nosotros {
+    font-size: 1.5rem; }
+  .catalogo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 40px; }
+  .catalogo__producto {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px; }
+  .producto__img {
+    max-width: 75px;
+    width: 250px;
+    height: 250px; }
+  .producto__descripcion {
+    padding-top: 10px;
+    font-size: 1.2rem; }
+  .subtituloPrincipal {
+    padding: 20px;
+    font-size: 2rem; }
+  .sectionForm {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 1.5rem; }
+  .footer {
+    font-size: 1.5rem; } }
