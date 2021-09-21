@@ -476,3 +476,92 @@ ul {
     font-size: 1.5rem; }
   .footer {
     font-size: 1.5rem; } }
+
+@media (max-width: 375px) {
+  .imagenPrincipal {
+    width: auto;
+    height: auto;
+    max-width: 375px;
+    max-height: 320px; }
+  .imagenesInicio {
+    width: auto;
+    height: auto;
+    margin: 0px 30px;
+    padding: 0px 20px; }
+  .menuPrincipal {
+    font-size: small; }
+  .tituloIndex {
+    font-size: 2rem; }
+  .tituloLista {
+    font-size: 2rem; }
+  .listaInicio {
+    font-size: 1.5rem;
+    margin-left: 50px;
+    padding-left: 0px; }
+  .subtitulosLocales {
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 15px; }
+  .h3_locales {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+  .locales {
+    display: inline;
+    padding-right: 0px; }
+  .locales__mapa {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    margin-left: 0px; }
+  .locales__direcciones {
+    padding-left: 0px; }
+  .locales__mapa iframe {
+    width: auto;
+    height: auto;
+    max-width: 425px;
+    max-height: 600px; }
+  .direcciones__descripcion {
+    font-size: 1.5rem;
+    margin-right: 0px;
+    margin-left: 16px; }
+  .maps {
+    font-size: 1.5rem;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 16px; }
+  .subtitulosNosotros {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .sectionNosotros {
+    padding: 30px 20px; }
+  .descripcion_nosotros {
+    font-size: 1.5rem; }
+  .catalogo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 40px; }
+  .catalogo__producto {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px; }
+  .producto__img {
+    max-width: 75px;
+    width: 250px;
+    height: 250px; }
+  .producto__descripcion {
+    padding-top: 10px;
+    font-size: 1.2rem; }
+  .subtituloPrincipal {
+    padding: 20px;
+    font-size: 2rem; }
+  .sectionForm {
+    padding: 15px 55px 35px 0px;
+    font-size: 1.5rem; }
+  .footer {
+    font-size: 1.5rem; } }
