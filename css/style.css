@@ -301,20 +301,21 @@ ul {
     width: auto;
     height: auto;
     max-width: 500px;
-    margin-top: 35px;
-    margin-left: 95px; }
+    margin: 35px 55px 0px 55px;
+    padding: 12px 20px; }
   .menuPrincipal {
     font-size: large; }
   .tituloIndex {
     font-size: 2.5rem; }
   .container {
-    padding-top: 25px;
-    padding-bottom: 50px; }
+    margin: 0px 10px 0px 30px;
+    padding: 25px 40px 40px 40px; }
   .tituloLista {
     font-size: 2.5rem; }
   .listaInicio {
     font-size: 2rem;
-    margin-left: 230px; }
+    margin: 0px 0px 35px 80px;
+    padding: 0px; }
   .subtitulosLocales {
     font-size: 2.5rem;
     padding-top: 30px;
@@ -390,17 +391,20 @@ ul {
     width: auto;
     height: auto;
     max-width: 300px;
-    margin-left: 55px;
-    margin-right: 62px; }
+    margin: 35px 45px 0px 45px;
+    padding: 12px 20px; }
   .menuPrincipal {
     font-size: small; }
+  .container {
+    margin: 0px;
+    padding: 10px 25px 40px 25px; }
   .tituloIndex {
     font-size: 2rem; }
   .tituloLista {
     font-size: 2rem; }
   .listaInicio {
     font-size: 1.5rem;
-    margin-left: 100px; }
+    margin-left: 65px; }
   .subtitulosLocales {
     font-size: 2rem;
     padding-top: 30px;
@@ -410,11 +414,11 @@ ul {
     padding-top: 10px;
     padding-bottom: 15px; }
   .locales {
-    display: inline; }
+    display: inline;
+    padding: 0px; }
   .locales__mapa {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 10%; }
+    padding: 50px 10% 30px 15%;
+    margin: 0px; }
   .locales__direcciones {
     padding-left: 10%; }
   .locales__mapa iframe {
@@ -436,8 +440,7 @@ ul {
     padding-bottom: 20px;
     padding-top: 20px; }
   .sectionNosotros {
-    padding-top: 30px;
-    padding-bottom: 30px; }
+    padding: 30px 50px; }
   .descripcion_nosotros {
     font-size: 1.5rem; }
   .catalogo {
