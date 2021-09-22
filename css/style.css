@@ -37,7 +37,7 @@ ul {
   padding-bottom: 100px; }
 
 .imagenPrincipal {
-  width: auto;
+  width: 100%;
   height: auto; }
 
 .imagenesInicio {
@@ -225,10 +225,8 @@ ul {
 
 @media (max-width: 1440px) {
   .imagenPrincipal {
-    width: auto;
-    height: auto;
-    max-width: 1440px;
-    max-height: 850px; }
+    width: 100%;
+    height: auto; }
   .locales {
     padding-right: 650px; }
   .locales__mapa {
@@ -238,10 +236,8 @@ ul {
 
 @media (max-width: 1024px) {
   .imagenPrincipal {
-    width: auto;
-    height: auto;
-    max-width: 1024px;
-    max-height: 850px; }
+    width: 100%;
+    height: auto; }
   .imagenesInicio {
     width: auto;
     height: auto;
@@ -299,10 +295,8 @@ ul {
 
 @media (max-width: 768px) {
   .imagenPrincipal {
-    width: auto;
-    height: auto;
-    max-width: 768px;
-    max-height: 850px; }
+    width: 100%;
+    height: auto; }
   .imagenesInicio {
     width: auto;
     height: auto;
@@ -390,10 +384,8 @@ ul {
 
 @media (max-width: 425px) {
   .imagenPrincipal {
-    width: auto;
-    height: auto;
-    max-width: 425px;
-    max-height: 850px; }
+    width: 100%;
+    height: auto; }
   .imagenesInicio {
     width: auto;
     height: auto;
@@ -479,10 +471,8 @@ ul {
 
 @media (max-width: 375px) {
   .imagenPrincipal {
-    width: auto;
-    height: auto;
-    max-width: 375px;
-    max-height: 320px; }
+    width: 100%;
+    height: auto; }
   .imagenesInicio {
     width: auto;
     height: auto;
