@@ -559,8 +559,8 @@ ul {
 
         @include sizes(auto,auto);
         max-width: 300px; 
-        margin: 35px 45px 0px 45px;
-        padding: 12px 20px;
+        margin: 1% 5%;
+        padding: 12px 5%;
     }
 
     .menuPrincipal{
@@ -568,7 +568,7 @@ ul {
     }
     .container{
         margin: 0px;
-        padding: 10px 25px 40px 25px;
+        padding: 10px 5% 40px 5%;
     }
     .tituloIndex{
         font-size: 2rem;
@@ -579,28 +579,28 @@ ul {
     }
     .listaInicio {
         font-size: 1.5rem;
-        margin-left: 65px;
+        margin-left: 10%;
     }
     .subtitulosLocales{
         font-size: 2rem;
-        padding-top: 30px;  
-        padding-bottom: 15px;
+        padding: 30px 1% 15px 1%;
+        margin: 0px;
     }
     .h3_locales{
         font-size: 1.5rem;
-        padding-top: 10px;  
-        padding-bottom: 15px; 
+        padding: 10px 1% 15px 1%;
     }
     .locales {
         display:inline;
         padding: 0px;
     }
     .locales__mapa{
-        padding: 50px 10% 30px 15%;
+        padding: 50px 7% 30px 7%;
         margin: 0px;
     }
     .locales__direcciones{
-        padding-left: 10%;
+        padding:5px 5%;
+        margin: 0px;
     }
     .locales__mapa iframe{
         @include sizes(auto,auto);
@@ -609,6 +609,7 @@ ul {
     }
     .direcciones__descripcion {
         font-size: 1.5rem;
+        @include sizes(250px,50px);
     }
     .maps {
         font-size: 1.5rem;
@@ -673,13 +674,17 @@ ul {
     .imagenesInicio{
 
         @include sizes(auto,auto);
-        margin: 0px 30px;
-        padding: 0px 20px;
+        max-width: 280px;
+        margin: 1% 5%;
+        padding: 12px 5%;
     }
     .menuPrincipal{
         font-size:small;
     }
-
+    .container{
+        margin: 0px;
+        padding: 10px 5% 40px 5%;
+    }   
     .tituloIndex{
         font-size: 2rem;
     }
@@ -689,8 +694,8 @@ ul {
     }
     .listaInicio {
         font-size: 1.5rem;
-        margin-left: 50px;
         padding-left: 0px;
+        margin-left: 10%;
     }
     .subtitulosLocales{
         font-size: 2rem;
@@ -713,15 +718,16 @@ ul {
         margin-left: 0px;
     }
     .locales__direcciones{
-        padding-left: 0px;
+        padding:5px 5%;
     }
     .locales__mapa iframe{
         @include sizes(auto,auto);
-        max-width: 425px; 
+        max-width: 350px; 
         max-height: 600px;
     }
     .direcciones__descripcion {
         font-size: 1.5rem;
+        @include sizes(250px,50px);
         margin-right: 0px;
         margin-left: 16px;
     }
